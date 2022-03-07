@@ -29,7 +29,7 @@ pipeline
             steps
             {
                git 'https://github.com/intelliqittrainings/FunctionalTesting.git'
-               sh 'java -jar /home/ubuntu/.jenkins/workspace/DeclarativePipeline1/testing.jar'
+               sh 'java -jar /var/lib/jenkins/workspace/ntr/testing.jar'
             }
         }
        
